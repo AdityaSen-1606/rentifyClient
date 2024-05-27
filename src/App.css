@@ -1,0 +1,333 @@
+/* NavBar.css */
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #6430a0;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.navBar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navBar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navBar ul li {
+  margin-left: 20px;
+}
+
+.navBar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navBar ul li a:hover {
+  color: #ff6347;
+  /* Tomato color for hover effect */
+  transition: color 0.3s;
+}
+
+/* HomePage.css */
+
+.homePage {
+  text-align: center;
+  margin: 20px;
+}
+
+.homePage h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.buildings-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.building-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.building-card a {
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.building-card p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+/* LoginPage.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(0deg, #6e8efb, #a777e3);
+  font-family: Arial, sans-serif;
+}
+
+.login-form {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.login-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6e8efb;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #976ec5;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 20px;
+}
+
+/* RegisterPage.css */
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(0deg,
+    #6e8efb,
+    #a777e3);
+  font-family: Arial, sans-serif;
+}
+
+.register-form {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.register-form h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.register-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6e8efb;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-form button:hover {
+  background-color: #976ec5;
+}
+
+.register-form .toggle-role-btn {
+  background-color: #976ec5;
+  margin-bottom: 10px;
+}
+
+.register-form .toggle-role-btn:hover {
+  background-color: #6e8efb;
+}
+
+.selected-role {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* SellerDashboard.css */
+
+.dashboard-container {
+  padding: 20px;
+  background: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.form-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.building-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.building-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.building-card h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.building-card p {
+  margin-bottom: 10px;
+}
+
+.building-card button {
+  padding: 10px;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: auto;
+}
+
+.building-card button.edit {
+  background-color: #ffc107;
+  margin-right: 10px;
+}
+
+.building-card button.edit:hover {
+  background-color: #e0a800;
+}
+
+.building-card button.delete:hover {
+  background-color: #c82333;
+}
